@@ -1,0 +1,39 @@
+/* fonts style */
+*{  text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.orange-color{color: rgba(253, 110, 10, 1);}
+.orange-button{
+    background-color: rgba(253, 110, 10, 1);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    color: white;
+    padding: 15px 35px;
+}
+/* nave related style */
+nav {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin: 20px;
+}
+nav a{
+    color: #474747;
+}
+
+
