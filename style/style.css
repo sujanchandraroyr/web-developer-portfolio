@@ -17,6 +17,7 @@ nav {
     display: flex; 
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 .nav-title{
     color: #181818;
@@ -35,5 +36,26 @@ nav li{
 nav a{
     color: #474747;
 }
+/* header related style */
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    
+}
 
+.banner .wellcm-h1{
+
+}
+.banner .wellcm-h2{
+
+}
+.banner .image{
+    width: 450px;
+}
 
