@@ -78,6 +78,10 @@ margin-bottom: 6px;
 /* header section end */
 
 /* main section start */
+main{
+    max-width: 1140px;
+    margin: 0% auto;
+}
 /* about section style */
 .about{
     background-color: #FFF8F3;
@@ -97,3 +101,19 @@ margin-bottom: 6px;
     font-size: 18;
     color: #181818;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-container .about-info{
+    text-align: center;
+}
+.about-info .info-title{
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.about-info .info-description{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}  
