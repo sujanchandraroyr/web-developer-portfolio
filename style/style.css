@@ -39,23 +39,40 @@ nav a{
 /* header related style */
 .header{
     background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner-content{
-    
+    max-width: 500px;
 }
 
 .banner .wellcm-h1{
-
+font-size: 45px;
+font-weight: 600;
+color: #474747;
+margin-bottom: 0px;
 }
 .banner .wellcm-h2{
-
+font-size: 80px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 6px;
+}
+.banner .banner-description{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .banner .image{
-    width: 450px;
+    width: 500px;
+    height: 600px;
 }
 
