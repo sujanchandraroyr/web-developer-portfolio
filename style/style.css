@@ -193,3 +193,9 @@ font-weight: 600;
     text-align: center;
     margin: 50px;
 }
+/* footer style */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
