@@ -12,6 +12,8 @@
     color: white;
     padding: 15px 35px;
 }
+
+
 /* nave related style */
 nav {
     display: flex; 
@@ -88,7 +90,7 @@ main{
     padding: 130px;
     border-radius: 10px;
     margin-top: 130px;
-    margin-bottom: 130px;
+    /* margin-bottom: 130px; */
     
 }
 .about .about-sectitle{
@@ -122,14 +124,64 @@ main{
 /* what i do style start */
 
 .what-i-do-container{
+margin-top: 130px;
 text-align: center;
 }
 .what-i-do-container .wid-title{
-
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
 }
 .what-i-do-container .wid-description{
     padding: 25px 150px;
 }
 .skills-container{
     display: flex;
+    gap: 24px;
+    
+}
+.skills-container .skills{
+    text-align: left;
+    padding: 24px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+}
+.skills-container .skills .skills-description{
+    color: #757575;
+}
+/* A summary resumi container start */
+.resumi-section{
+    /* text-align: center; */
+    
+}
+.section-title{
+    text-align: center;
+}
+/*.resumi-colum{
+    /* width: 50%;
+}*/
+.resumi-container{
+    display: flex; /*akhane kaj hbe pre*/
+    gap: px;
+}
+.resumi-colum-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.resumi-colum .resumi-item-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.resumi-colum .resumi-item-sub-title{
+color: #757575;
+font-size: 20px;
+font-weight: 600;
+}
+..resumi-colum .resumi-item-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
 }
