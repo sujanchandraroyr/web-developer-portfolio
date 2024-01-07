@@ -159,12 +159,13 @@ text-align: center;
 .section-title{
     text-align: center;
 }
-/*.resumi-colum{
-    /* width: 50%;
-}*/
+.resumi-colum{
+   
+}
 .resumi-container{
-    display: flex; /*akhane kaj hbe pre*/
-    gap: px;
+    display: flex;
+    gap: 50px;
+    
 }
 .resumi-colum-title{
     font-size: 30px;
@@ -180,8 +181,15 @@ color: #757575;
 font-size: 20px;
 font-weight: 600;
 }
-..resumi-colum .resumi-item-description{
+.resumi-colum .resumi-item-description{
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+.resumi-container hr{
+    margin: 30px 0px 30px 0px;
+}
+.cv-download{
+    text-align: center;
+    margin: 50px;
 }
